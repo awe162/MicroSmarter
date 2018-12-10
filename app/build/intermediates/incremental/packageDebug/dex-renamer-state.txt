@@ -1,0 +1,7 @@
+#Tue Mar 20 19:41:52 CST 2018
+base.0=D\:\\WorkSpace_Studio\\topsun\\Handhelddevice\\MicroSmarter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_c3c535d7eafbb4eac77ed35f52d291ea70867dbb
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=D\:\\WorkSpace_Studio\\topsun\\Handhelddevice\\MicroSmarter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_5b0fd9952ca4007bfc0b17d66faadccb02a752b1\\classes.dex
+base.1=D\:\\WorkSpace_Studio\\topsun\\Handhelddevice\\MicroSmarter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_5b0fd9952ca4007bfc0b17d66faadccb02a752b1
+file.0=D\:\\WorkSpace_Studio\\topsun\\Handhelddevice\\MicroSmarter\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_c3c535d7eafbb4eac77ed35f52d291ea70867dbb\\classes.dex
