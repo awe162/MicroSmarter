@@ -1,0 +1,161 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:2:1-56:12
+	package
+		ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml
+		INJECTED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml
+		INJECTED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml
+		INJECTED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.1] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
+MERGED from [com.lzy.net:okgo:2.0.0] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.lzy.net\okgo\2.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [MicroSmarter:mypicker:unspecified] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\MicroSmarter\mypicker\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml
+		INJECTED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml
+		INJECTED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:10:5-68
+	android:name
+		ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:10:22-65
+application
+ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:11:5-54:19
+MERGED from [MicroSmarter:mypicker:unspecified] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\MicroSmarter\mypicker\unspecified\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:14:9-41
+	android:supportsRtl
+		ADDED from [MicroSmarter:mypicker:unspecified] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\MicroSmarter\mypicker\unspecified\AndroidManifest.xml:14:9-35
+	android:icon
+		ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:13:9-45
+	android:allowBackup
+		ADDED from [MicroSmarter:mypicker:unspecified] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\MicroSmarter\mypicker\unspecified\AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:15:9-40
+	android:name
+		ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:12:9-38
+activity#com.impinj1.microsmarter.MainActivity
+ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:16:9-23:20
+	android:screenOrientation
+		ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:20:13-49
+	android:label
+		ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:18:13-45
+	android:configChanges
+		ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:19:13-74
+	android:name
+		ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:17:13-65
+activity#com.impinj1.microsmarter.activity.MyMainActivity
+ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:25:9-30:20
+	android:screenOrientation
+		ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:26:19-55
+	android:name
+		ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:25:19-58
+activity#com.impinj1.microsmarter.activity.LoginActivity
+ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:32:9-42:20
+	android:screenOrientation
+		ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:33:19-55
+	android:name
+		ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:32:19-57
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:36:13-40:29
+action#android.intent.action.MAIN
+ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:37:17-69
+	android:name
+		ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:37:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:39:17-77
+	android:name
+		ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:39:27-74
+activity#com.impinj1.microsmarter.activity.TyreActivity
+ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:43:9-44:67
+	android:screenOrientation
+		ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:44:19-55
+	android:name
+		ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:43:19-56
+activity#com.impinj1.microsmarter.activity.TyreStorageActivity
+ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:45:9-46:67
+	android:screenOrientation
+		ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:46:19-55
+	android:name
+		ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:45:19-63
+activity#com.impinj1.microsmarter.activity.TyreReplaceActivity
+ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:47:9-48:67
+	android:screenOrientation
+		ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:48:19-55
+	android:name
+		ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:47:19-63
+activity#com.impinj1.microsmarter.activity.TyreQueryActivity
+ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:49:9-50:67
+	android:screenOrientation
+		ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:50:19-55
+	android:name
+		ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:49:19-61
+activity#com.impinj1.microsmarter.activity.TyreOverhaulActivity
+ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:51:9-53:25
+	android:screenOrientation
+		ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:52:19-55
+	android:name
+		ADDED from D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\src\main\AndroidManifest.xml:51:19-64
+uses-permission#android.permission.INTERNET
+ADDED from [com.lzy.net:okgo:2.0.0] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.lzy.net\okgo\2.0.0\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from [com.lzy.net:okgo:2.0.0] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.lzy.net\okgo\2.0.0\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [com.lzy.net:okgo:2.0.0] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.lzy.net\okgo\2.0.0\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from [com.lzy.net:okgo:2.0.0] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.lzy.net\okgo\2.0.0\AndroidManifest.xml:12:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [com.lzy.net:okgo:2.0.0] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.lzy.net\okgo\2.0.0\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from [com.lzy.net:okgo:2.0.0] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.lzy.net\okgo\2.0.0\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from [com.lzy.net:okgo:2.0.0] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.lzy.net\okgo\2.0.0\AndroidManifest.xml:14:5-84
+	android:name
+		ADDED from [com.lzy.net:okgo:2.0.0] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.lzy.net\okgo\2.0.0\AndroidManifest.xml:14:22-81
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\AndroidManifest.xml:26:9-47

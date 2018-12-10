@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.greenrobot\greendao-generator\3.0.0\ef03fdf4961ef0714ff37ab7480f46c4a437ba5c\greendao-generator-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ef03fdf4961ef0714ff37ab7480f46c4a437ba5c">
+        <dex dex="D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\transforms\dex\debug\folders\1000\10\greendao-generator-3.0.0_044a98495f0dad62a6fcf91babee45fe7bd81724\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\libs\IPJ1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea7ffdb874018535fc603d68e5e0736951abff49">
+        <dex dex="D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\transforms\dex\debug\folders\1000\2\IPJ1_5715fd4c1dcd009fa99f4e895dd3870e8b09ccae\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.lzy.net\okgo\2.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5f2619d79858edc2952acb9045d9fe11ebc9eba7">
+        <dex dex="D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.lzy.net-okgo-2.0.0_3899f71e45e0ef826863efb7c5969a76fef1e732\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="51a28cfbacd1422254ba8671e238d530657ab5a0">
+        <dex dex="D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_5b0fd9952ca4007bfc0b17d66faadccb02a752b1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.3.1_65d2fd75a94c9e94a58b3e44f0991087ca5432ef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.greenrobot\greendao\3.0.1\20ec484d992d38d7775a22e43ac40d2d551bb886\greendao-3.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="20ec484d992d38d7775a22e43ac40d2d551bb886">
+        <dex dex="D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\transforms\dex\debug\folders\1000\10\greendao-3.0.1_abf87de8eb34fe2d52ffaa9bf844a846e2e8eabe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.3.1_df0f082154f4c757e2403e07e2d3c4963ae3dcd6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.4.1_a3a718343956c6e4d917a53a4fdd4a4dc134cda5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.greenrobot\greendao-api\3.0.0\9170fafb15855927b2e131e4fb7ac47dede441b7\greendao-api-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9170fafb15855927b2e131e4fb7ac47dede441b7">
+        <dex dex="D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\transforms\dex\debug\folders\1000\10\greendao-api-3.0.0_7b974e310cf2b52764a917d9601873ed2f5f9ab2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.3.1_ef991f90a06a068bac13730c20ecf79dec4d226b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f3d0b150dae6ddda27007536c583a4bbb8a6e176">
+        <dex dex="D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_c3c535d7eafbb4eac77ed35f52d291ea70867dbb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.3.1_4c1a5b166f5c5175bc80471a5dd13f2bbccebc5e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.3.1_5fe6394ec31a19a945b790a7c4daed2c7005b01b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.3.1_42a9ac4a29a589d9ccb643985c42c7d302bcbaed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.3.1_c20db8b6f212b0e11e77c60ad9a974ff037493dd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.3.1_ce975a25850554621b79872bfaa3acf7c97a7c42\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.freemarker\freemarker\2.3.23\cd143cd8c02a9f838e3cb75a6dfe133750437f6d\freemarker-2.3.23.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cd143cd8c02a9f838e3cb75a6dfe133750437f6d">
+        <dex dex="D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\transforms\dex\debug\folders\1000\10\freemarker-2.3.23_25ec0259f44e7df4b6050a0c096fa08b5106a554\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android_deploy\sdk2017\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_d26f61ed36f763efc1706e24d1a622c7f1c61927\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.9.0_db0545b090bbd931e1cf6e43202e038727277a7d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.8.0_eca52502deb48db964b5e6d39d16c5eaa7bb0998\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_6b4bdbe18fe48cc8659d41724c3ec0e2c7f779ee\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="D:\WorkSpace_Studio\topsun\Handhelddevice\MicroSmarter\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.3.1_c3f71e31f076bc8caaf5f4bf5457d691ce268e81\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,204 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <include layout="@layout/title"
+             android:id="@+id/activity_tyre_title"
+        />
+
+    <TextView
+        android:id="@+id/activity_tyre_titletext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="蓝牙连接"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/title_margintop"
+        android:textStyle="bold"
+        android:textSize="@dimen/title_size"
+        android:textColor="@color/white"
+        />
+    </RelativeLayout>
+    <TabHost
+        android:id="@+id/tabhost"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <!-- TabWidget的id属性必须为 @android:id/tabs -->
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" />
+            <!-- FrameLayout的id属性必须为 @android:id/tabcontent -->
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <LinearLayout
+                    android:id="@+id/firsttab"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:paddingTop="@dimen/activity_vertical_margin" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" 
+                        android:orientation="horizontal">
+
+                        <SeekBar
+                            android:id="@+id/powerBar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.9"
+                            android:max="30"
+                            android:paddingLeft="@dimen/button_horizontal_margin"
+                            android:paddingRight="@dimen/button_horizontal_margin"
+                            android:progress="23" />
+
+                        <TextView
+                            android:id="@+id/txtPowerBar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.1"
+                            android:paddingLeft="@dimen/button_horizontal_margin"
+                            android:paddingRight="@dimen/button_horizontal_margin"
+                            android:text="@string/txt_PowerBar"
+
+                            android:textSize="@dimen/tag_times_formt_size" />
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginBottom="@dimen/activity_padding"
+                        android:background="@drawable/txt_borad_bg"
+                        android:paddingLeft="@dimen/button_horizontal_margin"
+                        android:paddingRight="@dimen/button_horizontal_margin" >
+
+                        <TextView
+                            android:id="@+id/txt_open"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left|center_vertical"
+                            android:text="@string/button_open"
+                            android:textSize="@dimen/button_fornt_size" />
+
+                        <ToggleButton
+                            android:id="@+id/togBtn_open"
+                            android:layout_width="91dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="right|center_vertical"
+                            android:background="@drawable/btn_toggle_bg"
+                            android:disabledAlpha="?android:attr/disabledAlpha"
+                            android:textOff=""
+                            android:textOn="" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginBottom="@dimen/activity_padding"
+                        android:background="@drawable/txt_borad_bg"
+                        android:paddingLeft="@dimen/button_horizontal_margin"
+                        android:paddingRight="@dimen/button_horizontal_margin" >
+
+                        <TextView
+                            android:id="@+id/txt_inv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left|center_vertical"
+                            android:text="@string/button_inv"
+                            android:textSize="@dimen/button_fornt_size" />
+
+                        <ToggleButton
+                            android:id="@+id/togBtn_inv"
+                            android:layout_width="91dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="right|center_vertical"
+                            android:background="@drawable/btn_toggle_bg"
+                            android:clickable="false"
+                            android:disabledAlpha="?android:attr/disabledAlpha"
+                            android:textOff=""
+                            android:textOn="" />
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/txtCount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="@dimen/button_horizontal_margin"
+                            android:paddingRight="@dimen/button_horizontal_margin"
+                            android:text="@string/txt_count"
+                            android:textSize="@dimen/tag_count_fornt_size" />
+
+                        <TextView
+                            android:id="@+id/txtTimes"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="@dimen/button_horizontal_margin"
+                            android:paddingRight="@dimen/button_horizontal_margin"
+                            android:text="@string/txt_count"
+                            android:textSize="@dimen/tag_times_formt_size" />
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:background="@color/gray"
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginBottom="@dimen/activity_padding"
+                       >
+                    </FrameLayout>
+
+                    <fragment
+                        android:id="@+id/fragment_taglist"
+                        android:name="com.impinj1.microsmarter.TaglistFragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_weight="0.91" />
+                </LinearLayout>
+
+               
+
+                    <LinearLayout
+                        android:id="@+id/secondtab"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical"
+                        android:paddingBottom="@dimen/activity_vertical_margin"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:paddingRight="@dimen/activity_horizontal_margin" >
+
+                        <fragment
+                            android:id="@+id/fragment_tagoper"
+                            android:name="com.impinj1.microsmarter.TagOperFragment"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+                
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <include layout="@layout/title"
+             android:id="@+id/activity_tyre_title"
+        />
+
+   <TextView
+        android:id="@+id/activity_tyre_titletext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="轮胎设置"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/title_margintop"
+        android:textStyle="bold"
+        android:textSize="@dimen/title_size"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:layout_below="@+id/activity_tyre_title"
+        android:gravity="center"
+        android:id="@+id/tyre_add_title_query"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击查看已读取的标签"
+        />
+
+    <View
+        android:id="@+id/tyre_add_view_top"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/tyre_add_title_query"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#999"
+        ></View>
+
+    <ListView
+        android:scrollbars="none"
+        android:layout_above="@+id/tyre_add_view_Bottom"
+        android:layout_below="@+id/tyre_add_view_top"
+        android:id="@+id/tyre_add_lv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ListView>
+
+
+    <View
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/tyre_add_ll"
+        android:id="@+id/tyre_add_view_Bottom"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#999"
+        ></View>
+
+    <LinearLayout
+        android:id="@+id/tyre_add_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+        <Button
+            android:visibility="gone"
+            android:id="@+id/tyre_add_bt_TyreStorage"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:text="轮胎入库"
+            android:textSize="@dimen/activity_tyre_bt_textsize"
+            android:layout_marginRight="5dp"
+            />
+
+
+     <!-- <Button
+            android:id="@+id/tyre_add_bt_new"
+            android:visibility="gone"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="轮胎装车"
+          android:textSize="@dimen/activity_tyre_bt_textsize"
+            android:layout_marginRight="5dp"
+            />-->
+
+        <Button
+            android:id="@+id/tyre_add_bt_replace"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:text="轮胎装卸"
+            android:textSize="@dimen/activity_tyre_bt_textsize"
+            android:layout_marginRight="5dp"
+            />
+
+
+        <Button
+            android:id="@+id/tyre_add_bt_overhaul"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:text="轮胎检修"
+            android:textSize="@dimen/activity_tyre_bt_textsize"
+            android:layout_marginRight="5dp"
+            />
+
+        <Button
+            android:id="@+id/tyre_add_bt_query"
+            android:visibility="gone"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="轮胎查询"
+            android:textSize="@dimen/activity_tyre_bt_textsize"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

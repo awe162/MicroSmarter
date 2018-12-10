@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="holo_gray_light">#33999999</color>
+
+
+    <color name="login_popu_textcolor">#777777</color>
+    <color name="login_edittext_textcolor">#e8e8e8</color>
+    <color name="login_title_textcolor">#262626</color>
+
+    <color name="gray2">#ececec</color>
+    <color name="gray">#a0a0a0</color>
+    <color name="main_title">#23ade5</color>
+    <color name="white">#ffffff</color>
+    <color name="query_rb_text">#62c1e7</color>
+    <color name="group_button_dialog_focused_holo_dark">#2699cc00</color>
+    <color name="holo_light_control_normal">#dacccccc</color>
+    <color name="query_spinner_background">#dcdcdc</color>
+    <color name="query_listview_text_head">#facc7e</color>
+    <color name="query_listview_text">#777777</color>
+    <color name="query_listview_division">#e5e5e5</color>
+    <color name="black">#000000</color>
+    <color name="main_rg_background">#f9f9f9</color>
+    <color name="view_background">#eaeaea</color>
+    <color name="wheelnumber_text">#333333</color>
+    <color name="wheelnumber_view_division">#e5e5e5</color>
+    <color name="popupwindow_text">#333333</color>
+    <color name="touming">#00000000</color>
+
+
+    <color name="explain_view_top">#eaeaea</color>
+    <color name="explain_view_division">#dcdcdc</color>
+    <color name="explain_text1">#333333</color>
+    <color name="explain_text2">#777777</color>
+    <color name="expandable_background">#fdeccb</color>
+    <color name="explain_tyre_view">#a0a0a0</color>
+    <color name="explain_tyre_text">#facc7e</color>
+
+
+    <!-- 以下是蓝牙连接界面的颜色值 -->
+
+    <color name="bluetooth_title_textcolor">#333333</color>
+
+    <color name="bluetooth_title2_textcolor">#facc7e</color>
+
+
+    <!-- 轮胎处理界面里的新增入库界面  -->
+
+    <color name="handling_add_storage_ll_view_division">#e5e5e5</color>
+    <color name="handling_add_storage_ll_textcolor">#333333</color>
+</resources>

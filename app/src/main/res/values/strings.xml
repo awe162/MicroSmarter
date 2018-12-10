@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<string name="login_title">轮胎设置手持终端</string>
+    <string name="login_EditText_account">账户名</string>
+    <string name="login_EditText_password">密码</string>
+   &lt;!&ndash; <string name="check_password_true">记住密码</string>
+    <string name="forget_password"><u>忘记密码?</u></string>&ndash;&gt;
+    <string name="login_button">登陆</string>-->
+
+    <string name="login_title_text">轮胎设置手持终端</string>
+    <string name="login_EditText_name">账户名</string>
+    <string name="EditText_password">密码</string>
+
+    <string name="app_name">MicroSmarter</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_open">开启模块</string>
+    <string name="button_inv">搜索标签</string>
+    <string name="txt_count">0000</string>
+    <string name="txt_PowerBar">23dBm</string>
+ <!--   <string name="txt_powerOn_inventory">上电盘存</string>-->
+    <string name="txt_powerOn_inventory">读取标签</string>
+    <string name="txt_ReadWrite_tag">写入标签</string>
+    <string name="txt_connect_device">连接设备</string>
+    <string name="txt_Connecting">正在连接设备，请稍后...</string>
+    <string name="tab_read">标签读取</string>
+    <string name="tab_write">标签写入</string>
+    <string name="txt_tag_tit">选中标签:</string>
+    <string name="txt_read_eare">读取区域:</string>
+    <string name="txt_write_eare">写入区域:</string>
+    <string name="txt_offset"> 偏移地址:</string>
+    <string name="txt_length">数据长度:</string>
+    <string name="txt_accesspwd">访问密码:</string>
+    <string name="txt_null">N/A</string>
+    <string name="txt_pwdzero">00000000</string>
+    <string name="txt_ok">确定</string>
+    <string name="txt_cancel">取消</string>
+    <string name="button_read">读取</string>
+    <string name="button_write">写入</string>
+    
+    <string name="info_connect_success">连接成功</string>
+    <string name="info_antenna_fail">天线参数设置失败</string>
+    <string name="info_connect_fail">连接失败</string>
+    <string name="info_disconnect_success">断开成功</string>
+    <string name="info_disconnect_fail">断开失败</string>
+    <string name="info_inv_success">开始搜索标签</string>
+    <string name="info_inv_fail">搜索标签启动失败</string>
+    <string name="info_stopinv_success">停止搜索标签</string>
+    <string name="info_stopinv_fail">搜索标签停止失败</string>
+    <string name="info_no_sel_tag">未选择要操作的标签</string>
+    <string name="info_readio_buzy">模块正在处理其他事务(如盘点),请稍后重试</string>
+    <string name="info_oper_fail">操作失败</string>
+    <string name="info_no_tags">未发现任何标签</string>
+    <string name="info_tag_read_error">标签读取出错</string>
+    <string name="info_write_length_zero">写入数据长度不允许为0</string>
+    <string name="info_write_length_error">数据长度与实际要写入的数据长度不符(字符数必须为数据长度的4倍)</string>
+    <string name="info_write_success">成功向标签写入数据</string>
+    <string name="info_tag_write_error">标签写入出错</string>
+    
+    <string name="app_exit">再按一次将退出程序</string>
+</resources>

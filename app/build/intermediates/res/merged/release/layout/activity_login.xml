@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/activity_login"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/login_background"
+    >
+    <TextView
+        android:id="@+id/activity_login_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:text="@string/login_title_text"
+        android:textColor="@color/login_title_textcolor"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <!--<TextView
+        android:id="@+id/activity_login_tv2"
+        android:layout_below="@+id/activity_login_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:textColor="@color/login_title_textcolor"
+        android:text="Tire life cycle management system"
+        />-->
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"
+        android:id="@+id/log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/activity_login_tv" />
+
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/login_edittext_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/log"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="@dimen/login_linearlayout_margin"
+        android:layout_marginRight="@dimen/login_linearlayout_margin"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:id="@+id/login_transit_ll"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_edittext_height"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+
+            <ImageView
+                android:paddingLeft="16dp"
+                android:paddingRight="20dp"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/login_edittext_fleet" />
+
+            <TextView
+                android:id="@+id/login_transit_tv"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="公交公司选择"
+                android:textSize="@dimen/login_edittext_textsize"
+                android:textColor="@color/white"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/login_edittext_xiala"
+                android:layout_marginRight="@dimen/login_imageview_paddingright"
+                />
+        </LinearLayout>
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/login_division"
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_edittext_height"
+        android:layout_marginTop="18dp"
+       >
+
+        <ImageView
+            android:paddingLeft="16dp"
+            android:paddingRight="20dp"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/login_edittext_name" />
+
+        <EditText
+            android:id="@+id/login_name_et"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="@string/login_EditText_name"
+            android:textColorHint="@color/login_edittext_textcolor"
+            android:layout_marginRight="@dimen/login_imageview_paddingright"
+            android:textSize="@dimen/login_edittext_textsize"
+            android:textColor="@color/white"
+            android:singleLine="true"
+             />
+    </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_division"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_edittext_height"
+            android:layout_marginTop="18dp"
+            >
+
+            <ImageView
+                android:paddingLeft="16dp"
+                android:paddingRight="20dp"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/login_edittext_password" />
+
+            <EditText
+                android:id="@+id/login_password_et"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:inputType="textPassword"
+                android:hint="@string/EditText_password"
+                android:textColorHint="@color/login_edittext_textcolor"
+                android:layout_marginRight="@dimen/login_imageview_paddingright"
+                android:textSize="@dimen/login_edittext_textsize"
+                android:textColor="@color/white"
+                android:singleLine="true"
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_division"
+            />
+    </LinearLayout>
+
+
+
+
+<LinearLayout
+    android:id="@+id/login_checkbox_ll"
+    android:layout_below="@+id/login_edittext_rg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="@dimen/login_linearlayout_margin"
+    android:layout_marginRight="18dp"
+    android:layout_marginTop="10dp"
+    android:gravity="center_vertical"
+    >
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+   <CheckBox
+         android:id="@+id/login_cb"
+         android:layout_width="15dp"
+         android:layout_height="15dp"
+         android:textColor="@color/white"
+         android:background="@drawable/selector_login_checkbox"
+         android:button="@null"
+         />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="记住密码"
+    android:textColor="@color/white"
+    android:textSize="13sp"
+    android:layout_marginLeft="5dp"
+    />
+
+    </LinearLayout>
+<!--<TextView-->
+    <!--android:gravity="right"-->
+    <!--android:layout_weight="1"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="忘记密码？"-->
+    <!--android:textColor="@color/white"-->
+    <!--android:textSize="13sp"-->
+    <!--/>-->
+</LinearLayout>
+
+<Button
+    android:id="@+id/login_bt"
+    android:layout_marginLeft="@dimen/login_linearlayout_margin"
+    android:layout_marginRight="@dimen/login_linearlayout_margin"
+    android:layout_below="@+id/login_checkbox_ll"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="@drawable/selector_login_background"
+    android:text="登 录"
+    android:textSize="20sp"
+    android:layout_marginTop="15dp"
+    android:textColor="@color/white"
+    android:layout_centerHorizontal="true"
+    />
+</RelativeLayout>

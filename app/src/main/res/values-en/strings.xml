@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MircoSmarter</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_open">Open Device</string>
+    <string name="button_inv">Search Tag</string>
+    <string name="txt_count">0000</string>
+    <string name="txt_PowerBar">23dBm</string>
+    <string name="txt_powerOn_inventory">Inventory</string>
+    <string name="txt_ReadWrite_tag">ReadWrite</string>
+    <string name="txt_connect_device">CONNECT DEVICE</string>
+    <string name="txt_Connecting">connecting...</string>
+    <string name="tab_read">Read</string>
+    <string name="tab_write">Write</string>
+    <string name="txt_tag_tit">Selected Tag:</string>
+    <string name="txt_read_eare">read area:</string>
+    <string name="txt_write_eare">write area:</string>
+    <string name="txt_offset"> offset:</string>
+    <string name="txt_length">data length:</string>
+    <string name="txt_accesspwd">password:</string>
+    <string name="txt_null">N/A</string>
+    <string name="txt_pwdzero">00000000</string>
+    <string name="txt_ok">OK</string>
+    <string name="txt_cancel">Cancel</string>
+    <string name="button_read">read</string>
+    <string name="button_write">write</string>
+    
+    <string name="info_connect_success">connect succeed</string>
+    <string name="info_antenna_fail">antenna parameters setting fail</string>
+    <string name="info_connect_fail">connect fail</string>
+    <string name="info_disconnect_success">disconnect succeed</string>
+    <string name="info_disconnect_fail">disconnect fail</string>
+    <string name="info_inv_success">Searching</string>
+    <string name="info_inv_fail">fail for start</string>
+    <string name="info_stopinv_success">Stop</string>
+    <string name="info_stopinv_fail">stop fail</string>
+    <string name="info_no_sel_tag">no tag selected</string>
+    <string name="info_readio_buzy">device is busy,please try it later </string>
+    <string name="info_oper_fail">fail</string>
+    <string name="info_no_tags">no tag</string>
+    <string name="info_tag_read_error">tag read error</string>
+    <string name="info_write_length_zero">write length should be more then 0</string>
+    <string name="info_write_length_error">not match for the length of data(number of character is 4 times to the length)</string>
+    <string name="info_write_success">write succeed</string>
+    <string name="info_tag_write_error">write fail</string>
+    
+    <string name="app_exit">once more to exit</string>
+</resources>

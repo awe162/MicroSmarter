@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <include layout="@layout/title"
+             android:id="@+id/activity_tyre_query_title"
+        />
+
+    <ImageView
+        android:layout_alignBottom="@+id/activity_tyre_query_title"
+        android:id="@+id/activity_tyre_query_fanhui"
+        android:paddingTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:src="@drawable/fanhui"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        />
+
+    <View
+        android:id="@+id/activity_tyre_query_view_top"
+        android:layout_below="@+id/activity_tyre_query_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/handling_add_storage_view_height"
+        android:background="@color/holo_light_control_normal"></View>
+
+
+    <Button
+        android:id="@+id/activity_tyre_query_add_bt"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="查询"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="轮胎查询"
+        android:textStyle="bold"
+        android:textSize="@dimen/title_size"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/title_margintop"
+        android:id="@+id/textView"/>
+
+    <LinearLayout
+        android:id="@+id/activity_tyre_query_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/activity_tyre_query_view_top"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/handling_add_storage_ll_height"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="轮胎编号  :"
+                android:layout_marginLeft="@dimen/handling_add_storage_ll_marginLeft"
+                android:textSize="@dimen/handling_add_storage_ll_textsize"
+                android:textColor="@color/handling_add_storage_ll_textcolor"
+                />
+
+            <EditText
+                android:id="@+id/activity_tyre_query_Label"
+                android:gravity="right"
+                android:layout_width="150dp"
+                android:imeOptions="actionSearch"
+                android:singleLine="true"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/handling_add_storage_ll_marginLeft"
+                android:background="@drawable/editsharp"
+                android:textSize="@dimen/handling_add_storage_ll_textsize"
+                android:textColor="@color/handling_add_storage_ll_textcolor"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginLeft="@dimen/handling_add_storage_ll_marginLeft"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/handling_add_storage_ll_view_division"
+            ></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/handling_add_storage_ll_height"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="车牌号  :"
+                android:layout_marginLeft="@dimen/handling_add_storage_ll_marginLeft"
+                android:textSize="@dimen/handling_add_storage_ll_textsize"
+                android:textColor="@color/handling_add_storage_ll_textcolor"
+                />
+
+            <TextView
+                android:id="@+id/activity_tyre_query_number"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/handling_add_storage_ll_marginLeft"
+                android:text="- - -"
+                android:textSize="@dimen/handling_add_storage_ll_textsize"
+                android:textColor="@color/handling_add_storage_ll_textcolor"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginLeft="@dimen/handling_add_storage_ll_marginLeft"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/handling_add_storage_ll_view_division"
+            ></View>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/handling_add_storage_ll_height"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="品牌  :"
+                android:layout_marginLeft="@dimen/handling_add_storage_ll_marginLeft"
+                android:textSize="@dimen/handling_add_storage_ll_textsize"
+                android:textColor="@color/handling_add_storage_ll_textcolor"
+                />
+
+
+
+            <TextView
+                android:id="@+id/activity_tyre_query_brand"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/handling_add_storage_ll_marginLeft"
+                android:text="- - -"
+                android:textSize="@dimen/handling_add_storage_ll_textsize"
+                android:textColor="@color/handling_add_storage_ll_textcolor"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginLeft="@dimen/handling_add_storage_ll_marginLeft"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/handling_add_storage_ll_view_division"
+            ></View>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/handling_add_storage_ll_height"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="出厂时间  :"
+                android:layout_marginLeft="@dimen/handling_add_storage_ll_marginLeft"
+                android:textSize="@dimen/handling_add_storage_ll_textsize"
+                android:textColor="@color/handling_add_storage_ll_textcolor"
+                />
+
+            <TextView
+                android:id="@+id/activity_tyre_query_factorytime"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/handling_add_storage_ll_marginLeft"
+                android:text="- - -"
+                android:textSize="@dimen/handling_add_storage_ll_textsize"
+                android:textColor="@color/handling_add_storage_ll_textcolor"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginLeft="@dimen/handling_add_storage_ll_marginLeft"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/handling_add_storage_ll_view_division"
+            ></View>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/handling_add_storage_ll_height"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="胎温  :"
+                android:layout_marginLeft="@dimen/handling_add_storage_ll_marginLeft"
+                android:textSize="@dimen/handling_add_storage_ll_textsize"
+                android:textColor="@color/handling_add_storage_ll_textcolor"
+                />
+
+            <TextView
+                android:id="@+id/activity_tyre_query_temper"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:text="- - -"
+                android:textSize="@dimen/handling_add_storage_ll_textsize"
+                android:textColor="@color/handling_add_storage_ll_textcolor"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginLeft="@dimen/handling_add_storage_ll_marginLeft"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/handling_add_storage_ll_view_division"
+            ></View>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/handling_add_storage_ll_height"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="胎压  :"
+                android:layout_marginLeft="@dimen/handling_add_storage_ll_marginLeft"
+                android:textSize="@dimen/handling_add_storage_ll_textsize"
+                android:textColor="@color/handling_add_storage_ll_textcolor"
+                />
+
+            <TextView
+                android:id="@+id/activity_tyre_query_pressure"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:text="- - -"
+                android:textSize="@dimen/handling_add_storage_ll_textsize"
+                android:textColor="@color/handling_add_storage_ll_textcolor"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginLeft="@dimen/handling_add_storage_ll_marginLeft"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/handling_add_storage_ll_view_division"
+            ></View>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/handling_add_storage_ll_height"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="总里程  :"
+                android:layout_marginLeft="@dimen/handling_add_storage_ll_marginLeft"
+                android:textSize="@dimen/handling_add_storage_ll_textsize"
+                android:textColor="@color/handling_add_storage_ll_textcolor"
+                />
+
+            <TextView
+                android:id="@+id/activity_tyre_query_mileage"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:text="- - -"
+                android:textSize="@dimen/handling_add_storage_ll_textsize"
+                android:textColor="@color/handling_add_storage_ll_textcolor"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginLeft="@dimen/handling_add_storage_ll_marginLeft"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/handling_add_storage_ll_view_division"
+            ></View>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/handling_add_storage_ll_height"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="更换时间  :"
+                android:layout_marginLeft="@dimen/handling_add_storage_ll_marginLeft"
+                android:textSize="@dimen/handling_add_storage_ll_textsize"
+                android:textColor="@color/handling_add_storage_ll_textcolor"
+                />
+
+
+            <TextView
+                android:id="@+id/activity_tyre_query_replacetime"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:text="- - -"
+                android:textSize="@dimen/handling_add_storage_ll_textsize"
+                android:textColor="@color/handling_add_storage_ll_textcolor"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginLeft="@dimen/handling_add_storage_ll_marginLeft"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/handling_add_storage_ll_view_division"
+            ></View>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/handling_add_storage_ll_height"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="轮胎位置  :"
+                android:layout_marginLeft="@dimen/handling_add_storage_ll_marginLeft"
+                android:textSize="@dimen/handling_add_storage_ll_textsize"
+                android:textColor="@color/handling_add_storage_ll_textcolor"
+                />
+
+            <TextView
+                android:id="@+id/activity_tyre_query_position"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:text="- - -"
+                android:textSize="@dimen/handling_add_storage_ll_textsize"
+                android:textColor="@color/handling_add_storage_ll_textcolor"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginLeft="@dimen/handling_add_storage_ll_marginLeft"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/handling_add_storage_ll_view_division"
+            ></View>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

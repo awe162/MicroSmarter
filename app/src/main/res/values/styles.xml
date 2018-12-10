@@ -1,0 +1,44 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+        <style name="tagListFontStyle"> 
+        <item name="android:textSize">5px</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="CustomProgressDialog" parent="@style/CustomDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style  name="CustomDialog"  parent="@android:style/Theme.Dialog">
+        <item  name="android:windowFrame">@null</item>
+        <item  name="android:windowIsFloating">true</item>
+        <item  name="android:windowContentOverlay">@null</item>
+        <item  name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item  name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+  <!--  <color name="left_column_bk">#6B9A00</color>-->
+    <color name="left_column_bk">#8a8b89</color>
+    <color name="right_column_bk">#9CCF00</color>
+    <color name="toggleButton_bk">#FFFFFF</color>
+   <!-- <color name="txt_show_color">#ffffff</color>-->
+    <color name="txt_show_color">#000000</color>
+    <color name="padding_line_color">#FFFFFF</color>
+	<color name="txt_warnning_color">#FF0000</color>
+</resources>
